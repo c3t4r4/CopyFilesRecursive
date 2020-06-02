@@ -4,6 +4,8 @@
 # Info
 - Copia os Arquivos de pastas e subpastas recursivamente para dentro da pasta Files na raiz.
 
+- pasta1 é apenas uma pasta de teste, onde tem 5 pastas e 3 arquivos distribuidos que serão copiados para a pasta Files na raiz pra ficar mais facil de verificar os arquivos.
+
 
 # Dependências
 - python 3
