@@ -19,7 +19,7 @@ def listar_pasta(pasta):
 		arq.write("ARQUIVOS NA PASTA '"+ str(pasta).upper() +"': \n")
 		for item in items:
 			novo_item = os.path.join(pasta,item)
-			if os.path.isdir(novo_item) && novo_item != "Files":ß
+			if os.path.isdir(novo_item) and novo_item != "Files":
 				subpastas.append(novo_item)
 				continue
 			else:
