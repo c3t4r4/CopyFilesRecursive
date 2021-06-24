@@ -48,7 +48,7 @@ def movefile(filepath, filename):
 	destino = Destino + nome
 	print('Arquivo - ' + nome)
 	print('Path - ' + origem)
-	shutil.copyfile(origem, destino)
+	shutil.copy2(origem, destino)
 
 if __name__ == '__main__':
 	os.system('mkdir Files')
